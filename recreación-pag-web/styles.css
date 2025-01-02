@@ -5,20 +5,22 @@ body {
     color: #333;
   }
   
-header {
+  header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #4a90e2;
-    color: white;
-    padding: 10px 20px;
+    justify-content: space-between;  
+    background-image: url('fondo/fondo.jpeg'); 
+    background-position: center;
+    background-size: contain ;
+    padding: 100px 200px
   }
   
   .header-content {
     display: flex;
     align-items: center;
-    width: 100%;
+    justify-content: space-between;
   }
+  
   
   .logo img {
     height: 60px;
@@ -29,16 +31,18 @@ header {
   header h1 {
     font-size: 2.5em;
     margin: 0;
+    color: #f4f4f4;
   }
   
   header p {
     font-size: 1.2em;
     margin: 10px 0 0;
+    color:#f4f4f4 ;
   }
   
   #cta {
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 40px;
     background-color: #f4f4f4;
   }
   
@@ -62,7 +66,7 @@ header {
   }
   
   #form {
-    background-color: #e9f5ff;
+    background-color: rgb(95, 212, 255);
     padding: 40px 20px;
     text-align: center;
   }
